@@ -8,7 +8,7 @@ import Guides from './Guides'
 import Reviews from './Reviews'
 import Shop from './Shop'
 import FAQ from './FAQ'
-import Contact from './Contact';
+import ContactUs from './ContactUs';
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
           <Route exact path="/reviews" element={<Reviews />} />
           <Route exact path="/shop" element={<Shop />} />
           <Route exact path="/faq" element={<FAQ />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/contactus" element={<ContactUs />} />
         </Routes>
      
     </div>

@@ -14,7 +14,7 @@ const Guides = () => {
     <div className="flex flex-col h-screen bg-neutral-800">
         <div class="flex flex-col h-full w-5/6 m-auto bg-zinc-700">
 
-        <Card sx={{ maxWidth: null }}>
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -38,7 +38,7 @@ const Guides = () => {
             </CardActionArea>
         </Card>
 
-        <Card sx={{ maxWidth: null }}>
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -62,7 +62,7 @@ const Guides = () => {
             </CardActionArea>
         </Card>
 
-        <Card sx={{ maxWidth: null }}>
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -86,7 +86,7 @@ const Guides = () => {
             </CardActionArea>
         </Card>
 
-        <Card sx={{ maxWidth: null }}>
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -110,7 +110,7 @@ const Guides = () => {
             </CardActionArea>
         </Card>
 
-        <Card sx={{ maxWidth: null }}>
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
