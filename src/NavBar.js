@@ -27,7 +27,7 @@ const NavBar = () => {
 			<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
 			Atlas Computers
 			</Typography>
-			<Button component={Link} to="/" color="inherit">Home</Button>
+			<Button component={Link} to="/Seg3125Proj2" color="inherit">Home</Button>
 			<Button component={Link} to="/guides" color="inherit">Guides</Button>
 			<Button component={Link} to="/reviews" color="inherit">Reviews</Button>
 			<Button component={Link} to="/shop" color="inherit">Shop</Button>

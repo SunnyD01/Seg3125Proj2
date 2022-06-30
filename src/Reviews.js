@@ -66,18 +66,18 @@ const Reviews = () => {
                 <CardActionArea>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        PC Building Guide
+                        Deep Dive Into Mechanical Keyboard Switches
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                    Why should you build your own PC?
+                    What is a Mechanical Keyboard Switch?
                     <br/>
-                    Things to consider
+                    Basics - MX Switch Types 
                     <br/>
-                    How to choose your parts
+                    Switch Types – A Closer Look
                     <br/>
-                    Common mistakes to avoid
+                    Switch Plastics
                     <br/>
-                    Step by step guide
+                    Spring Types
                     </Typography>
                     </CardContent>
                     <CardActions>
@@ -90,18 +90,18 @@ const Reviews = () => {
                 <CardActionArea>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                    Guide to Monitors
+                    Top 10 entry level keyboards
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                    Why is a good monitor important?
+                    What to look for?
                     <br/>
-                    Things to look for when buying a monitor
+                    Rannking criteria
                     <br/>
-                    Colour Accuracy
+                    Our methdology
                     <br/>
-                    Refresh rate vs Reponse time
+                    Top 10
                     <br/>
-                    Recommendations
+                    Honorable mentions
                     </Typography>
                     </CardContent>
                     <CardActions>
