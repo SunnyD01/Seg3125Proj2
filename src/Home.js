@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -14,11 +13,12 @@ import BlueBubbleGum from './assets/BBL_home.png';
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen bg-neutral-800">
-      <div class="flex flex-col h-full w-5/6 m-auto bg-zinc-700">
+    <div className="flex flex-col h-screen bg-bgcol">
+      <div class="flex flex-col h-full w-2/3 m-auto bg-pagecol">
         <div class="h-1/2 w-auto mx-auto my-5">
             <img src={BlueBubbleGum} alt="Blue Bubblegum" className="h-full w-auto mx-auto"/>
         </div>
+        
         <div class="flex flex-row h-1/2 mb-5">
           <div class="w-1/2 bg-stone-300 mx-5 mt-5">
             <div className='h-1/6 bg-[#0F172A]'>

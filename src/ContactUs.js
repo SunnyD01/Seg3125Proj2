@@ -1,9 +1,9 @@
 const ContactUs = () => {
     return (
       <div className="flex flex-col h-screen bg-neutral-800">
-          <div class="flex flex-col h-full w-5/6 m-auto bg-zinc-700">
+          <div class="flex flex-col h-full w-2/3 m-auto bg-zinc-700">
 
-            <div className="bg-clear h-full flex text-center justify-center text-white">
+            <div className="bg-clear h-full flex text-center justify-center text-menufont">
               <div className="h-full flex flex-col w-full mx-10">
                 <div className="bg-gray-700 flex flex-col w-full h-1/3 justify-center m-10">
                   <p class="text-2xl">Address:</p>
@@ -23,8 +23,6 @@ const ContactUs = () => {
                   <p class="text-2xl">Contact Us:</p>
                   <p>Email: contact@atlascomputers.ca</p>
                   <p>Phone: (613) 123-4567</p>
-
-
                 </div>
               </div>
               <div className="w-full m-10">

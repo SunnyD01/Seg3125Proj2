@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 const FAQ = () => {
     return (
       <div className="flex flex-col h-full bg-neutral-800">
-          <div class="flex flex-col h-full w-5/6 m-auto bg-zinc-700">
+          <div class="flex flex-col h-full w-2/3 m-auto bg-zinc-700">
 
             <Card variant="outlined" sx={{ maxWidth: null }} >
               <CardContent>

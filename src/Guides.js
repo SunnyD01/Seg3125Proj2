@@ -11,10 +11,10 @@ import Button from '@mui/material/Button';
 
 const Guides = () => {
   return (
-    <div className="flex flex-col h-screen bg-neutral-800">
-        <div class="flex flex-col h-full w-5/6 m-auto bg-zinc-700">
+    <div class="flex flex-col h-screen bg-bgcol">
+        <div class="flex flex-col h-full w-2/3 m-auto bg-bgcol">
 
-        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-200">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -38,7 +38,7 @@ const Guides = () => {
             </CardActionArea>
         </Card>
 
-        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-300">
+        <Card sx={{ maxWidth: null }} class="my-1 bg-gray-200">
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
